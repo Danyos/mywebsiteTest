@@ -1,0 +1,44 @@
+@media only screen and (max-width: 975px) {
+    .text-info {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 675px) {
+    .nav-bar{
+        display: none;
+    }
+    .iconmenu{
+        display: block;
+    }
+
+    #about {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aboutImages {
+        width: 88%;
+
+    }
+
+    .aboutInformation {
+        width: 88%;
+    }
+
+    .ourMission .rowFlex {
+        gap: 45px 0;
+    }
+
+    .ourMission .box {
+        width: 48%;
+
+    }
+    #priceList .rowFlex{
+        gap: 45px 0;
+    }
+
+    #priceList .rowFlex .box {
+        width: 48%;
+    }
+}

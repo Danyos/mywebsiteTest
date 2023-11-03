@@ -1,0 +1,207 @@
+/*list my code*/
+/*about*/
+/*start menu>>>> nav-bar */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("./google.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container {
+
+    max-width: 1240px;
+    margin: auto;
+}
+.rowFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+header {
+    width: 100%;
+    padding: 25px 0;
+    background: #3d3970;
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+}
+
+/*start menu*/
+.iconmenu{
+    padding: 18px;
+    background: #fd703b;
+    margin-right: 14px;
+    display: none;
+}
+.nav-bar {
+    display: flex;
+
+}
+
+.nav-bar li a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+.nav-bar li a:hover{
+    color: red;
+}
+.nav-bar li {
+    list-style: none;
+}
+
+
+
+/*end menu*/
+
+
+#home {
+    width: 100%;
+    padding: 40px 0;
+    position: relative;
+}
+
+#home:before {
+    content: '';
+    position: absolute;
+    inset: 0;
+
+}
+
+.text-info {
+    position: relative;
+    z-index: 1;
+    color: white;
+    width: 55%;
+    margin: auto;
+    text-align: center;
+
+}
+
+#home h2 {
+    font-size: 48px;
+}
+
+#home p {
+    font-size: 20px;
+}
+
+/*about  start*/
+
+#about {
+    width: 100%;
+    padding: 45px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.aboutImages {
+    width: 48%;
+    align-self: center;
+}
+
+.aboutImages img {
+    width: 100%;
+}
+
+.aboutInformation {
+    width: 48%;
+    padding: 30px 0;
+}
+
+.aboutInformation h2 {
+    font-size: 45px;
+    margin: 15px 0;
+    color: white;
+}
+.aboutInformation h2>span{
+    color: orange;
+}
+
+.aboutInformation p {
+    font-size: 20px;
+    margin: 10px 0;
+    color: white;
+}
+
+
+/*about  end*/
+
+
+
+.ourMission {
+    width: 100%;
+    padding: 50px 15px;
+    background-image: url("https://images.unsplash.com/photo-1614850715649-1d0106293bd1?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y292ZXJ8ZW58MHx8MHx8fDA%3D");
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.ourMission .box {
+    text-align: center;
+}
+.ourMission .box i {
+    font-size: 80px;
+    color: white;
+}
+.ourMission .box h3 {
+    font-size: 50px;
+    color: white;
+    margin-top: 25px;
+}
+#priceList {
+    width: 100%;
+
+    padding: 40px 0;
+}
+
+
+#priceList h2{
+    text-align: center;
+    font-size: 45px;
+    color: white;
+}
+#priceList .rowFlex{
+    padding: 45px 0;
+}
+#priceList .box{
+    text-align: center;
+    padding: 10px;
+    width: 24%;
+    box-shadow: 1px 2px 3px black;
+    background: rgba(112, 57, 57, 0.55);
+
+}
+#priceList .box p{
+    color: white;
+    padding: 5px 0;
+}
+#priceList .box  h4{
+    color: orange;
+    font-size: 28px;
+
+}
+#priceList .box  span{
+    color: red;
+    font-size: 38px;
+
+}
+.priceItemskillList{
+    padding: 25px 0;
+}
+
+
+footer {
+    width: 100%;
+    height: 200px;
+    background: #39706e;
+}
+
