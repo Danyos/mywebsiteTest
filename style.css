@@ -13,6 +13,9 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }
+h1{
+    color:red
+ }
 .container {
 
     max-width: 1240px;
